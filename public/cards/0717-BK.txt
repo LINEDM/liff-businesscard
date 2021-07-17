@@ -82,7 +82,7 @@
             "action": {
               "type": "uri",
               "label": "+line",
-              "uri": "https://agapetw.com/index.php/0717-2/"
+              "uri": "https://line.me/ti/p/sa2DrO5TSl"
             }
           },
           {
