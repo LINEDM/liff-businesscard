@@ -104,7 +104,7 @@
             "action": {
               "type": "uri",
               "label": "商城簡介",
-              "uri": "https://wcuda.org/0717-2/"
+              "uri": "https://agapetw.com/index.php/0717-2/"
             }
           }
         ],
