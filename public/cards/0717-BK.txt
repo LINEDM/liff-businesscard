@@ -11,7 +11,7 @@
         "contents": [
           {
             "type": "image",
-            "url": "https://wcuda.org/wp-content/uploads/2021/07/bk-3.jpg",
+            "url": "https://wcuda.org/wp-content/uploads/2021/07/bk-1.jpg",
             "size": "full",
             "aspectMode": "cover",
             "aspectRatio": "1125:675",
