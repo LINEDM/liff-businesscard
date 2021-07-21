@@ -1,11 +1,11 @@
 extends /layout-default
 
 block beforehtml
-  - const title = '分享 LINE 數位版傳單'
+  - const title = '分享 LINE 數位發行'
 
 block style
   meta(property="fb:app_id", content="2133031763635285")
-  meta(property="og:description", content="請開啟本連結並按一下「選擇分享對象」來透過 LINE 分享傳單")
+  meta(property="og:description", content="請開啟本連結並按一下「選擇分享對象」來透過 LINE 分享發行")
   meta(property="og:image:height", content="315")
   meta(property="og:image:width", content="600")
   meta(property="og:image", content="https://i.imgur.com/PqLcIKj.png")
@@ -27,7 +27,7 @@ block content
         small.form-text.text-muted 點一下「分享好友」按鈕，可以一次選擇多個好友分享。
       .form-group.my-3
         button.btn.btn-lg.btn-info.btn-block.my-2.d-flex.justify-content-center.align-items-center(type="button", @click="btnSend") #[i.fa.mr-2.fa-paper-plane-o] 直接傳送
-        small.form-text.text-muted 點一下「直接傳送」按鈕，可以把傳單直接傳送到聊天室。
+        small.form-text.text-muted 點一下「直接傳送」按鈕，可以把發行直接傳送到聊天室。
       .form-group.my-3
         input.form-control.form-control-sm(type="text", :value="liffLink", ref="result", readonly)
         button.btn.btn-lg.btn-secondary.btn-block.my-2.d-flex.justify-content-center.align-items-center(type="button", @click="btnCopy") #[i.fa.mr-2.fa-clipboard] 複製網址
